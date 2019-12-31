@@ -431,7 +431,7 @@ function ShootTetrominoDown(){
 
 
 
-move tetromino down every 1 second
+//move tetromino down every 1 second
 window.setInterval(function(){
     if(winOrLose === "Playing"){    //game must be "playing"
         MoveTetrominoDown();
